@@ -65,6 +65,15 @@ With customers A, B, C and D with vectors as [25, 50, 80], [30, 60, 70], [22, 45
 - Specialized Hardware: Modern GPUs (like NVIDIA's) have Tensor Cores, which are specifically designed for deep learning tasks.
 
 ### What does the parameters mean for a LLM?
+
+---
 ###  What is a dimension in an embedding model?
+Dimension refers to one of the numerial components in a vector that represents a data point. <br>
+In a 4D vector, [0.12, -0.45, 0.88, 0.33], each number represents a dimension. Each dimension captures some latent feature of the data such as gender, tense, formality and etc. However, these features are not explicitly labeled — they are learned automatically by the model during training.
+
+---
 ### What is vector embedding?
+A vector embedding is a way of representing data, especially complex or non-numeric data like words, images, or documents as a list (or vector) of numbers in a continuous, high-dimensional space. These embeddings are designed so that similar items are close together in this space, and dissimilar items are far apart.
+
+---
 ### What is red teaming in AI?
