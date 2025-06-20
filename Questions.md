@@ -77,3 +77,22 @@ A vector embedding is a way of representing data, especially complex or non-nume
 
 ---
 ### What is red teaming in AI?
+
+---
+### What is few shots prompting?
+Few-shot prompting is a technique used in Generative AI (especially in models like GPT) to guide the model's behavior by giving it a few examples of the task you want it to perform. <br>
+```Answer the question, 88 is 44, 66 is 33, so 222 is?```
+In the above example, prompt helps the model understand context or format.
+
+---
+### What is chain of thoughts in prompting?
+Chain of Thought (CoT) prompting is a technique where you ask the AI to explain its reasoning step by step before giving the final answer. <br>
+```Take step by step approach and solve this question for me, x+7 = 10```
+
+---
+### What is tool-augmented prompting?
+Tool-augmented prompting is a technique where a Generative AI model uses external tools or systems to enhance its capabilities during a task. Instead of relying only on its internal knowledge, the model can call tools to get more accurate, updated, or specialized results.
+
+---
+### How do you deploy a large model efficiently on low resource environments?
+
