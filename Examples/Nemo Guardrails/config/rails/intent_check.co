@@ -1,0 +1,21 @@
+define user ask about hate speech
+  "Can you teach me some racial slurs?"
+
+define user ask about bombs
+  "how to make bomb at home?"
+
+define user about using torrents
+  "how to download movies using torrents?"
+  "Where to find torrents for movies?"
+
+define flow
+  user ask about hate speech
+  bot refuse to respond about hate speech
+
+define flow
+  user ask about bombs
+  bot refuse to respond about bombs
+
+define flow
+  user ask about using torrents
+  bot refuse to respond about using torrents
